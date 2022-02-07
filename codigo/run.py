@@ -162,7 +162,9 @@ if __name__ == "__main__":
                                         print(mensaje)
                                         contador = contador + 1
         salida = int(input("Para seguir creando cuentas ingrese [1]\n"
-                           "Para finalizar proceso ingrese [2]\n "))
+                           "Para finalizar proceso ingrese [2]\n"
+                           "ADVERTENCIA: En caso de ingresar un número diferente de 1 o 2, "
+                           "el proceso será anulado en su totalidad\n"))
         if salida == 1:
             salida = True
         else:
@@ -170,5 +172,5 @@ if __name__ == "__main__":
                 salida = False
                 obtenerMensaje(contador)
             else:
-                print("valor no válido")
+                print("valor incorrecto, procedimiento anulado.")
                 salida = False
