@@ -1,3 +1,4 @@
+# Jostin Enrique Alvarado Sarmiento - Tais Belen Balcázar Alban
 # 2 Bimestre 
 ## Proyecto Python
 
